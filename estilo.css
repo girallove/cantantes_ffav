@@ -38,3 +38,17 @@ main {
     margin-top: 10px;
 }
 
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #343a40;
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
