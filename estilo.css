@@ -1,36 +1,40 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #87CEEB; /* Azul claro */
+    background-color: #aec6df;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 header {
-    background-color: #1E3A5F;
+    background-color: #343a40;
     color: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 28px;
-    width: 100%;
+    padding: 20px 0;
+    font-size: 24px;
 }
 
 main {
-    width: 90%;
-    max-width: 800px;
-    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .cantante {
     background: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
     padding: 20px;
-    margin-bottom: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cantante img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
