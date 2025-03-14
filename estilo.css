@@ -19,3 +19,18 @@ header {
     width: 100%;
 }
 
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.cantante {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
